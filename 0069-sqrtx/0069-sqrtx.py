@@ -1,6 +1,5 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
-        if x == 1 : return 1
         num = x/2
         for i in range(0, int(num + 2 )) :
             if i*i == x :
